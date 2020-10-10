@@ -28,13 +28,23 @@ public class Project{
 
     public Project() {}
 
-    public Project(String name) {}
+    public Project(String name) {
+        this.name = name;
+    }
 
-    public Project(String name, String description) {}
+    public Project(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
 
-    public static String elevatorPitch(String name, String description, double initialCost){
-            result = (name + "(" + initialCost + ")" + ":" + description);
-        return  result;
+    public void elevatorPitch(String name, String description, double initialCost){
+        this.name = name;
+        this.description = description;
+        this.initialCost = initialCost;
+        
+        //  String  result = 
+        System.out.println("\n" + name + "(" + initialCost + ")" + ":" + description);
+      //  return  result;
 
     }
 
