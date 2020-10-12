@@ -16,7 +16,7 @@ public class GorillaTest{
 
     mightyJoe.throwSomething("banana peel");
     mightyJoe.eatBananas();
-    mightyJoe.displayEnergy("Gorilla", mightyJoe.getEnergyLevel());
+    mightyJoe.displayEnergy(mightyJoe.getSpecies(), mightyJoe.getEnergyLevel());
 
     }
 }
