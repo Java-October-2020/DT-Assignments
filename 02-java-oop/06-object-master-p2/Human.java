@@ -4,7 +4,7 @@ protected int strength;
 protected int stealth;
 protected int intelligence;
 protected int health;
-protected String classType;  //Wizard, Ninja, Samurai
+protected String classType;  //Wizard, Ninja, Samurai, Warrior
 
 
 public Human(){
@@ -19,29 +19,7 @@ public Human(String classType){
     this.classType = classType;
 }
 
-// public Human(int strength, String classType){
-//     this.strength = strength;
-//     this.stealth = 3;
-//     this.intelligence = 3;
-//     this.health = 100;
-//     this.classType = classType;
-// }
 
-// public Human(int strength, int stealth, String classType){
-//     this.strength = strength;
-//     this.stealth = stealth;
-//     this.intelligence = 3;
-//     this.health = 100;
-//     this.classType = classType;
-// }
-
-// public Human(int strength, int stealth, int intelligence, String classType){
-//     this.strength = strength;
-//     this.stealth = stealth;
-//     this.intelligence = intelligence;
-//     this.health = 100;
-//     this.classType = classType;
-// }
 
 public Human(int strength, int stealth, int intelligence, int health, String classType){
     this.strength = strength;

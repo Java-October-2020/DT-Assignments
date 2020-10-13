@@ -11,7 +11,7 @@ public class HumanTest{
     Mansford.attack("Mansford", Che);
     Brutus.attack("Brutus", Che);
     Brutus.attack("Brutus", Mansford);
-    Che.attack("Che", Che);
+    Che.attack("Che", Mansford);
     Che.attack("Che", Brutus);
 
     Brutus.displayHealth(Brutus.getClassType(), Brutus.getHealth());
