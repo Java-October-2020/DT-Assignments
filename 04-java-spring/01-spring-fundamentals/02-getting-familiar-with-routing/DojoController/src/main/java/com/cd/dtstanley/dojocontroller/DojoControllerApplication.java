@@ -20,11 +20,11 @@ public class DojoControllerApplication {
 		   		return "The dojo is awesome";
 		}
 	
-	   @RequestMapping("/{route}") 
+	   @RequestMapping("/dojo/{route}") 
 	    public String showProduct(@PathVariable ("route") String route){
-		   if(route == "burbank") {
+		   if(route.equals("burbank")) {
 			   return "Burbank Dojo is located in Southern California.";
-		   }else if (route == "san-jose" || route == "san jose") {
+		   }else if (route.equals("san-jose")) {
 			   return "SJ dojo is the headquarters.";
 		   }else {
 			   return "The dojo is awesome";
