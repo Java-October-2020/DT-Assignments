@@ -1,1 +1,185 @@
 2020-07-23 10:38:56,254 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-10-17 14:11:32,693 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-10-17 14:36:36,275 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.hellohuman:HelloHuman:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\pom.xml.
+2020-10-17 14:36:45,058 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHuman/src/main/java
+2020-10-17 14:36:45,059 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHuman/src/main/resources
+2020-10-17 14:36:45,078 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHuman/src/main/resources
+2020-10-17 14:36:45,101 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHuman/src/test/java
+2020-10-17 14:36:51,039 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 24 sec
+2020-10-17 14:36:51,045 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-10-17 14:36:52,221 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.hellohuman:HelloHuman:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\pom.xml.
+2020-10-17 14:36:53,781 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHuman/src/main/java
+2020-10-17 14:36:53,782 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHuman/src/main/resources
+2020-10-17 14:36:53,786 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHuman/src/main/resources
+2020-10-17 14:36:53,794 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHuman/src/test/java
+2020-10-17 14:36:55,703 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2020-10-17 14:37:00,024 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:37:00,068 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 14:37:00,091 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:37:00,096 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:37:00,096 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 14:39:24,032 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:39:24,038 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 14:39:24,043 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:39:24,047 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:39:24,047 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 14:40:39,498 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:40:39,499 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:40:39,500 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:40:39,503 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:40:39,503 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 14:54:39,980 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.stringsAssignment:stringsAssignment:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\stringsAssignment\pom.xml.
+2020-10-17 14:54:43,877 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:54:43,878 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 14:54:43,921 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:54:43,925 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:54:43,925 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\stringsAssignment\src\test\resources
+2020-10-17 14:59:05,608 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.firstprojectCD:firstprojectCD:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\firstprojectCD\pom.xml.
+2020-10-17 14:59:06,690 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:59:06,692 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 14:59:06,699 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:59:06,702 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:59:06,702 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\firstprojectCD\src\test\resources
+2020-10-17 14:59:07,773 [Worker-30: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.firstprojectCD:firstprojectCD:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\firstprojectCD\pom.xml.
+2020-10-17 14:59:10,020 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:59:10,023 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 14:59:10,028 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 14:59:10,033 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 14:59:10,034 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\Java_2020 Coding Dojo\CD Desktop Code Work\CodingDojo2020\JavaCD\assignments\firstprojectCD\src\test\resources
+2020-10-17 15:06:05,129 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.NinjaGold:NinjaGold:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\NinjaGold\pom.xml.
+2020-10-17 15:06:06,637 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:06:06,638 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:06:06,642 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:06:06,658 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:06:06,658 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\NinjaGold\src\test\resources
+2020-10-17 15:06:08,223 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.NinjaGold:NinjaGold:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\NinjaGold\pom.xml.
+2020-10-17 15:06:10,035 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:06:10,038 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:06:10,043 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:06:10,057 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:06:10,058 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\NinjaGold\src\test\resources
+2020-10-17 15:07:28,513 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.sampleProject:sampleProject:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\sampleProject\pom.xml.
+2020-10-17 15:07:29,663 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:07:29,664 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:07:29,667 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:07:29,670 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:07:29,670 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\sampleProject\src\test\resources
+2020-10-17 15:07:31,142 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.sampleProject:sampleProject:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\sampleProject\pom.xml.
+2020-10-17 15:07:33,336 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:07:33,338 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:07:33,352 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:07:33,355 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:07:33,355 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\sampleProject\src\test\resources
+2020-10-17 15:11:38,443 [Worker-34: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.hellohuman.controller:HelloHumanController:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHumanController\pom.xml.
+2020-10-17 15:11:39,951 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHumanController/src/main/java
+2020-10-17 15:11:39,952 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHumanController/src/main/resources
+2020-10-17 15:11:39,963 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHumanController/src/main/resources
+2020-10-17 15:11:39,978 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHumanController/src/test/java
+2020-10-17 15:11:41,129 [Worker-34: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2020-10-17 15:11:41,133 [Worker-34: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-10-17 15:11:41,693 [Worker-34: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.hellohuman.controller:HelloHumanController:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHumanController\pom.xml.
+2020-10-17 15:11:43,127 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHumanController/src/main/java
+2020-10-17 15:11:43,127 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHumanController/src/main/resources
+2020-10-17 15:11:43,137 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloHumanController/src/main/resources
+2020-10-17 15:11:43,145 [Worker-34: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloHumanController/src/test/java
+2020-10-17 15:11:43,690 [Worker-34: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-10-17 15:11:44,962 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:11:44,963 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:11:44,967 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:11:44,970 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:11:44,970 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHumanController\src\test\resources
+2020-10-17 15:19:35,857 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:19:35,860 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:19:35,864 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:19:35,868 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:19:35,868 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:21:51,390 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:21:51,393 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:21:51,398 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:21:51,401 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:21:51,401 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:23:37,503 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:23:37,504 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:23:37,504 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:23:37,511 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:23:37,512 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:24:07,035 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:24:07,035 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:24:07,036 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:24:07,040 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:24:07,040 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:24:30,474 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:24:30,475 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:24:30,476 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:24:30,479 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:24:30,480 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:24:32,199 [main] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2020-10-17 15:25:59,889 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:25:59,892 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:25:59,894 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:25:59,896 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:25:59,897 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:26:14,106 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:26:14,106 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:26:14,107 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:26:14,118 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:26:14,118 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:26:14,622 [Worker-42: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2020-10-17 15:28:30,086 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:28:30,087 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 15:28:30,089 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:28:30,092 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:28:30,093 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:30:05,884 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:30:05,885 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:30:05,886 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:30:05,891 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:30:05,892 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 15:33:14,383 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:33:14,384 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:33:14,384 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 15:33:14,386 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 15:33:14,386 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 22:38:33,567 [Worker-78: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.codingcontroller:CodingController:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\CodingController\pom.xml.
+2020-10-17 22:38:34,707 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:34,707 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 22:38:34,774 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 22:38:34,777 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:34,777 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\CodingController\src\test\resources
+2020-10-17 22:38:35,575 [Worker-78: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.dojocontroller:DojoController:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\DojoController\pom.xml.
+2020-10-17 22:38:36,891 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:36,892 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 22:38:37,058 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 22:38:37,060 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:37,060 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\DojoController\src\test\resources
+2020-10-17 22:38:39,503 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:39,505 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 22:38:39,509 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 22:38:39,512 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:39,513 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\CodingController\src\test\resources
+2020-10-17 22:38:40,335 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:40,337 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 22:38:40,342 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 22:38:40,345 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 22:38:40,346 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\02-getting-familiar-with-routing\DojoController\src\test\resources
+2020-10-17 23:14:31,635 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cd.dtstanley.hellohuman:HelloHuman:0.0.1-SNAPSHOT @ C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\pom.xml.
+2020-10-17 23:14:32,776 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:14:32,776 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 23:14:32,777 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-17 23:14:32,781 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:14:32,782 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 23:14:36,034 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:14:36,051 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 23:14:36,059 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 23:14:36,077 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:14:36,077 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-17 23:44:11,921 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:44:11,924 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 23:44:11,930 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-17 23:44:11,933 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-17 23:44:11,933 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
+2020-10-18 18:34:34,794 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-18 18:34:34,856 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-18 18:34:34,857 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-18 18:34:34,859 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-18 18:34:34,888 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\D.T. Stanley\Documents\Java_2020CodingDojo\CD_DesktopCodeWork\CodingDojo2020\JavaCD\assignments\04-java-spring\01-spring-fundamentals\03-hello-human\HelloHuman\src\test\resources
