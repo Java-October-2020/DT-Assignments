@@ -1,0 +1,22 @@
+body {
+	background-color: silver;
+	    margin-top: 200px;
+}
+.time, .date {
+	display: inline;
+	margin-left: 100px;
+
+}
+
+.date {
+	padding: 50px;
+}
+
+.time {
+	padding: 50px;
+}
+
+#green{
+	color: green;
+	text-decoration-color: green;
+}
