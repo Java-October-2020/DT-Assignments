@@ -11,57 +11,53 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class CounterController {
 
-	private Integer sessCount;
-
 	@RequestMapping("/")
 	public String homeView(HttpSession s) {
-		int presCount = index(s);
-		setSessionCount(s, presCount++);
+	if(s.getAttribute("count") == null) {
+		// no key found!  set session "count" to 0
+		s.setAttribute("count", 0);
+	}else {
+		int thisCount = (int)s.getAttribute("count");
+		thisCount++;
+		s.setAttribute("count", thisCount);
+	}
+//		int presCount = index(s);
+//		setSessionCount(s, presCount++);
 		return "index.jsp";
 	}
 	
-	//Get session count
-	private int index(HttpSession session){
-        // check if a key exists in session with the name "count"
-        if(session.getAttribute("count") == null) {
-            // no key found!  set session "count" to 0
-            session.setAttribute("count", 0);
-             Object sessCount = session.getAttribute("count");
-            System.out.println("count = " + sessCount);
-        }
-        return (Integer)sessCount;
-    }
-	
-	//Set session count
-	private void setSessionCount(HttpSession sessn, int num) {
-		sessn.setAttribute("count", num);
-	}
-	
+//	//Get session count
 	@RequestMapping("/add/{times}")
 	public String Add(@PathVariable("times")String times, HttpSession sess) {
-		int t=2;
-		try {
-			t=Integer.parseInt(times);
-		}
-		catch(NumberFormatException e) {
-			System.out.println(String.format("Exception Thrown %s",  e.getMessage()));
-			return "redirect:/";
-		}
-		int thisCount = index(sess);
-		thisCount +=t;
-		setSessionCount(sess, thisCount);
-		return "index.jsp";
+		//String thisCount = "0";
+		
+		int thisCount = (int)sess.getAttribute("count");
+		thisCount = thisCount + Integer.parseInt(times);
+		
+
+		sess.setAttribute("count", thisCount);
+//		try {
+//			t=Integer.parseInt(times);
+//		}
+//		catch(NumberFormatException e) {
+//			System.out.println(String.format("Exception Thrown %s",  e.getMessage()));
+//			return "redirect:/";
+//		}
+		return "curVCount.jsp";
 	}
-	
+
 	@RequestMapping("/reset")
 	public String Reset(HttpSession sess) {
-	sess.invalidate();
-	return "redirect:/counter";
+//	sess.invalidate();
+//	int thisCount = (int)sess.getAttribute("count");
+	int thisCount = 0;
+	sess.setAttribute("count", thisCount);  // If session is invalidated (line 51), can not setAttribute
+	return "redirect:/";
 	}
 	
 	@RequestMapping("/counter")
 	public String Counting(HttpSession ses, Model viewModel) {
-		viewModel.addAttribute("count", index(ses));
+		viewModel.addAttribute("count", ses.getAttribute("count"));
 	return "curVCount.jsp";
 	}
 }
