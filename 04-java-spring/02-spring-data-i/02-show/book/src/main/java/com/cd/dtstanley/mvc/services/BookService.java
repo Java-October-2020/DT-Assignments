@@ -12,13 +12,13 @@ import com.cd.dtstanley.mvc.repositories.BookRepository;
 public class BookService {
 	
 	   // initialize the books variable with values
-    private static List<Book> books = new ArrayList(Arrays.asList(
-            new Book("Harry Potter and the Sorcerer's Stone", "A boy wizard saving the world", "english", 309),
-            new Book("The Great Gatsby", "The story primarily concerns the young and mysterious millionaire Jay Gatsby", "english", 180),
-            new Book("Moby Dick", "The saga of Captain Ahab", "english", 544),
-            new Book("Don Quixote", "Life of a retired country gentleman", "english", 150),
-            new Book("The Odyssey", "Ancient Greek epic poem", "english", 475)
-            ));
+//    private static List<Book> books = new ArrayList(Arrays.asList(
+//            new Book("Harry Potter and the Sorcerer's Stone", "A boy wizard saving the world", "english", 309),
+//            new Book("The Great Gatsby", "The story primarily concerns the young and mysterious millionaire Jay Gatsby", "english", 180),
+//            new Book("Moby Dick", "The saga of Captain Ahab", "english", 544),
+//            new Book("Don Quixote", "Life of a retired country gentleman", "english", 150),
+//            new Book("The Odyssey", "Ancient Greek epic poem", "english", 475)
+//            ));
 
     
     // adding the book repository as a dependency
@@ -52,12 +52,35 @@ public class BookService {
             return null;
         }
     }
-    public static Book findBookByIndex(int index) {
-        if (index < books.size()){
-            return books.get(index);
+    public Book findBookByIndex(Long index) {
+  //      if (index < books.size()){
+//            return books.get(index);
+        Optional<Book> optionalBook = bookRepository.findById(index);
+        if(optionalBook.isPresent()) {
+            return optionalBook.get();
         }else{
             return null;
         }
     }
-
-}
+    
+    //update a book
+    public Book updateBook(Book updatedBook) {
+    	return bookRepository.save(updatedBook);
+    }
+//    public void updateBook(Book book, Long id, String bookTitle, String author, String description, String language, int numberOfPages) {
+//    	if (id != null) {
+//    		book.setbookTitle(bookTitle);
+//    		book.setId(id);
+//    		book.setLanguage(language);
+//    		book.setNumberOfPages(numberOfPages);
+//    	}
+//    }
+    
+  //delete a book
+    public String deleteBook(Long id) {
+    	 bookRepository.deleteById(id);
+    	 return "The book has been deleted";
+    }
+    
+    
+}// end of BookService

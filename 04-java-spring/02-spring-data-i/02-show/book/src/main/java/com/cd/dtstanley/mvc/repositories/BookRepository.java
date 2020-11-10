@@ -18,3 +18,5 @@ public interface BookRepository extends CrudRepository<Book, Long>{
     // this method deletes a book that starts with a specific title
     Long deleteByBookTitleStartingWith(String search);
 }
+
+//CRUD functionality comes free.

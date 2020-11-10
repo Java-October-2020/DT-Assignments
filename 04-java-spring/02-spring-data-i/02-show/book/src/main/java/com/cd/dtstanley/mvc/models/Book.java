@@ -126,4 +126,8 @@ public class Book {
     public void updatedAt() {
     	
     }
+	public Book  setbookTitle(Book book) {
+		// TODO Auto-generated method stub
+		return book;
+	}
 }// end of Book class
