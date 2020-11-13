@@ -25,7 +25,7 @@ import com.cd.dtstanley.languages.services.LanguagesService;
 	private LanguagesService languagesService;	//injecting our service 
 	    
 
-	@RequestMapping("/")
+	@RequestMapping("/")	//show them all the languages
     public String start(Model viewModel, @ModelAttribute("languages") Languages languages ) {
 		List<Languages> lang = this.languagesService.allLanguages();
 		viewModel.addAttribute("languages", lang);
@@ -35,7 +35,7 @@ import com.cd.dtstanley.languages.services.LanguagesService;
     return "/languages/index.jsp";
 	}
 	
-    @RequestMapping("/languages/new")			//show them the form to create the book
+    @RequestMapping("/languages/new")			//show them the form to create the languages
     public String newLang(@ModelAttribute("languages") Languages languages) {
     	return "/languages/newLang.jsp";
     }
@@ -63,7 +63,7 @@ import com.cd.dtstanley.languages.services.LanguagesService;
     	return "/languages/showUser.jsp";
     }
 
-	    @RequestMapping("/languages")		//show them all the users
+	    @RequestMapping("/languages")		
 	    public String index(Model viewModel) {
 	        List<Languages> languages = languagesService.allLanguages();
 	        viewModel.addAttribute("languages", languages);

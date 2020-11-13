@@ -1,0 +1,6 @@
+/*
+margin: auto and text-align to horizontally center content.*/
+.homie {
+    margin: 0 auto;
+    text-align: center;
+}

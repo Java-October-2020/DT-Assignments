@@ -25,7 +25,7 @@ import com.cd.dtstanley.languages.repositories.LanguagesRepository;
 	    public List<Languages> allLanguages() {
 	        return languagesRepository.findAll();
 	    }
-	    // creates a user
+	    // creates a Language
 	    public Languages createLang(Languages languages) {
 	        return (Languages) languagesRepository.save(languages);
 	 //       return this.languagesRepository.save(lang);

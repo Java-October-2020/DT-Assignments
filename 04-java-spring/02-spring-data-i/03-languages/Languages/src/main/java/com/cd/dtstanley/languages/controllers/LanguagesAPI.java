@@ -30,7 +30,7 @@ import com.cd.dtstanley.languages.services.LanguagesService;
 	    @RequestMapping(value="/api/languages", method=RequestMethod.POST)
 	    public Languages create(@RequestParam(value="name") String name, @RequestParam(value="creator") String creator, @RequestParam(value="vers") Float currentVersion) {
 	    	Languages languages = new Languages(name, creator, currentVersion );
-	        return languagesService.createLang((List<Languages>) languages);
+	        return languagesService.createLang(languages);
 	    }
 	    
 	    @RequestMapping("/api/languages/{id}")
