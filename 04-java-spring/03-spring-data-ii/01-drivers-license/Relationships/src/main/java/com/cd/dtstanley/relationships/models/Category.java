@@ -1,15 +1,15 @@
 package com.cd.dtstanley.relationships.models;
 
 import java.util.Date;
+import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
@@ -17,9 +17,11 @@ import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
-@Table(name="persons")
-public class Person {
+@Table(name="categories")
+public class Category {
  
  @Id
  @Column
@@ -28,13 +30,14 @@ public class Person {
  
  @Column
  @Size(min=2, max=50)
- private String firstName;
- 
+ private String name;
+
  @Column
- @Size(min=5, max=50)
- private String lastName;
+ @OneToMany(mappedBy="category", fetch = FetchType.LAZY)
+ @JsonIgnore
+ private List<Category> categoriesProducts;
  
- // This will not allow the createdAt column to be updated after creation
+//This will not allow the createdAt column to be updated after creation
  @Column(updatable=false)
  @DateTimeFormat(pattern = "MM/dd/yyyy HH:mm:ss")
  private Date createdAt;
@@ -42,11 +45,7 @@ public class Person {
  @Column
  @DateTimeFormat(pattern = "MM/dd/yyyy HH:mm:ss")
  private Date updatedAt;
- 
- 
- @OneToOne(mappedBy="person", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
- private License license;
- 
+     
 //before we save an object
  @PrePersist
  protected void onCreate(){
@@ -58,81 +57,113 @@ public class Person {
      this.updatedAt = new Date();
  }
  
-// getters and setters
 
+ // getters and setters 
+
+ 
+ 
 public Long getId() {
 	return id;
 }
+
+
+
 
 public void setId(Long id) {
 	this.id = id;
 }
 
-public String getFirstName() {
-	return firstName;
+
+
+
+public String getName() {
+	return name;
 }
 
-public void setFirstName(String firstName) {
-	this.firstName = firstName;
+
+
+
+public void setName(String name) {
+	this.name = name;
 }
 
-public String getLastName() {
-	return lastName;
-}
 
-public void setLastName(String lastName) {
-	this.lastName = lastName;
-}
+
 
 public Date getCreatedAt() {
 	return createdAt;
 }
 
+
+
+
 public void setCreatedAt(Date createdAt) {
 	this.createdAt = createdAt;
 }
+
+
+
 
 public Date getUpdatedAt() {
 	return updatedAt;
 }
 
+
+
+
 public void setUpdatedAt(Date updatedAt) {
 	this.updatedAt = updatedAt;
 }
 
-public License getLicense() {
-	return license;
+
+
+
+public List<Category> getCategoriesProducts() {
+	return categoriesProducts;
 }
 
-public void setLicense(License license) {
-	this.license = license;
-}
-public Person() {
+
+
+
+public void setCategoriesProducts(List<Category> categoriesProducts) {
+	this.categoriesProducts = categoriesProducts;
 }
 
-public Person(String firstName, String lastName, License license) {
-	this.firstName = firstName;
-	this.lastName = lastName;
-	this.license = license;
+
+
+
+public Category() {
+     
+ }
+
+
+
+
+public Category(String name, List<Category> categoriesProducts) {
+	this.name = name;
+	this.categoriesProducts = categoriesProducts;
 }
 
-public Person(Long id, String firstName, String lastName, License license) {
+
+
+
+public Category(Long id, String name, List<Category> categoriesProducts) {
 	this.id = id;
-	this.firstName = firstName;
-	this.lastName = lastName;
-	this.license = license;
+	this.name = name;
+	this.categoriesProducts = categoriesProducts;
 }
 
-public Person(Long id, String firstName, String lastName, Date createdAt, Date updatedAt, License license) {
+
+
+
+public Category(Long id, String name, Date createdAt, Date updatedAt, List<Category> categoriesProducts) {
 	this.id = id;
-	this.firstName = firstName;
-	this.lastName = lastName;
+	this.name = name;
 	this.createdAt = createdAt;
 	this.updatedAt = updatedAt;
-	this.license = license;
+	this.categoriesProducts = categoriesProducts;
 }
- 
 
 
-}
+}//end of Category
 

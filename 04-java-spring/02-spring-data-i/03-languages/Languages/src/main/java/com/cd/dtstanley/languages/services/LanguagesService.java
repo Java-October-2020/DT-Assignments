@@ -44,7 +44,7 @@ import com.cd.dtstanley.languages.repositories.LanguagesRepository;
 //	        return lang;
 //	    }
 	    
-	    // retrieves a user
+	    // retrieves a language
 	    public Languages findLanguagesByIndex(Long index) {
 //	        if (index < languages.size()){
 //	            return languages.get(index);
