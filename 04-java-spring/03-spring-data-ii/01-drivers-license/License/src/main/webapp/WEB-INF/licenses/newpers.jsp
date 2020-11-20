@@ -20,17 +20,17 @@
 
 		<div id="form">
 				<h1>New Person</h1>
-				<form:form action="/persons/new" method="POST" modelAttribute="person">
+				<form:form action="/persons/add" method="POST" modelAttribute="persons">
 				<div class="form-group">
-				<form:label path="firstName">First Name:
-				<form:errors path="firstName"/>
-				<form:input path="firstName"/>
+				<form:label path="first_name">First Name:
+				<form:errors path="first_name"/>
+				<form:input path="first_name"/>
 				</form:label>
 				</div>
 				<div class="form-group">
-				<form:label path="lastName">Last Name:
-				<form:errors path="lastName"/>
-				<form:input path="lastName"/>
+				<form:label path="last_name">Last Name:
+				<form:errors path="last_name"/>
+				<form:input path="last_name"/>
 				</form:label>
 				</div>
 
@@ -38,7 +38,7 @@
 				</form:form>
 		</div>
 		<div class="contents">
-			<a href="/licenses/new">Create a new license</a>
+			<a href="/licenses/new">Create new license</a>
 		</div>
 	</div>
 </body>

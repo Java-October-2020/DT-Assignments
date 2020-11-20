@@ -20,22 +20,22 @@ import com.cd.dtstanley.license.services.LicensesService;
 @Controller
 public class LicController {
 
-	
 	@Autowired	//injecting our service thru a shortcut process
 		private LicensesService licService;		//injecting our service
 	
 	@RequestMapping("/")
 	public String homer() {
+		System.out.println("line 28 of controller in homer()");
 		return "/licenses/index.jsp";
 	}
 	
 	@RequestMapping("/persons/new")
-	public String addPage(@ModelAttribute("person")Persons pers)
+	public String addPage(@ModelAttribute("persons")Persons pers)
 	{
-		return "/licenses/index.jsp";
+		return "/licenses/newpers.jsp";
 	}
-	@PostMapping("/persons/new")
-	public String addPerson(@ModelAttribute("person")Persons pers, BindingResult result)
+	@PostMapping("/persons/add")
+	public String addPerson(@ModelAttribute("persons")Persons pers, BindingResult result)
 	{
 		if (result.hasErrors())
 		{
@@ -44,31 +44,33 @@ public class LicController {
 		else
 		{
 			this.licService.addPerson(pers);
-			return "redirect:/persons/new";
+//			return "redirect:/persons/new";
+			return "redirect:/";
 		}
 	}
 	
 	@RequestMapping("/persons/{id}")
-	public String display(@PathVariable("id")Long id, Model m)
+	public String display(@PathVariable("id")Long id, Model viewModel)
 	{
 		Persons pers = this.licService.findPerson(id);
 		System.out.println(pers.getFirst_name());
-		m.addAttribute("person", pers);
-		return "/licenses/display.jsp";
+		viewModel.addAttribute("persons", pers);
+		return "/licenses/show.jsp";
 	}
 	
 	@RequestMapping("/licenses/new")
-	public String licenses(@ModelAttribute("license")Licenses lics, Model viewModel)
+	public String licenses(@ModelAttribute("licenses")Licenses lics, Model viewModel)
 	{
 //		List<Person> pList = this.pService.findAllPerson();
 		List<Persons> persList = this.licService.findAllUnlicensed();
 		viewModel.addAttribute("persons", persList);
-		return "/licenses/newLic.jsp";
+		return "/licenses/newlic.jsp";
 	}
 	
 	@PostMapping("/licenses/new")
-	public String newLicense(@Valid @ModelAttribute("license")Licenses lics, Model viewModel, BindingResult result)
+	public String newLicense(@Valid @ModelAttribute("licenses")Licenses lics, Model viewModel, BindingResult result)
 	{
+		System.out.println("Reached line 73 of LicController");
 		this.licService.createLicense(lics);
 		return "redirect:/licenses/new";
 	}

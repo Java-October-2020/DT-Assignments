@@ -35,8 +35,8 @@ public class Persons {
 	@Size(min=2, max=50)
 	private String last_name;
 	
-	@OneToOne(mappedBy="license", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
-	 private Licenses license;
+	@OneToOne(mappedBy="persons", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
+	 private Licenses licenses;
 	
 	  // This will not allow the createdAt column to be updated after creation
     @Column(updatable=false)
@@ -75,12 +75,12 @@ public class Persons {
 	public void setLast_name(String last_name) {
 		this.last_name = last_name;
 	}
-	public Licenses getLicense() {
-		return license;
-	}
-	public void setLicense(Licenses license) {
-		this.license = license;
-	}
+//	public Licenses getLicense() {
+//		return license;
+//	}
+//	public void setLicense(Licenses license) {
+//		this.license = license;
+//	}
 	public Date getCreatedAt() {
 		return createdAt;
 	}
@@ -94,31 +94,31 @@ public class Persons {
 		this.updatedAt = updatedAt;
 	}
 	
-	
+	//constructors
 	public Persons() {
 	}
-	public Persons(@Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
-		Licenses license) {
-		this.first_name = first_name;
-		this.last_name = last_name;
-		this.license = license;
-	}
-	public Persons(Long id, @Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
-		Licenses license) {
-		this.id = id;
-		this.first_name = first_name;
-		this.last_name = last_name;
-		this.license = license;
-	}
-	public Persons(Long id, @Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
-			Licenses license, Date createdAt, Date updatedAt) {
-		this.id = id;
-		this.first_name = first_name;
-		this.last_name = last_name;
-		this.license = license;
-		this.createdAt = createdAt;
-		this.updatedAt = updatedAt;
-	}
+//	public Persons(@Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
+//		Licenses license) {
+//		this.first_name = first_name;
+//		this.last_name = last_name;
+//		this.license = license;
+//	}
+//	public Persons(Long id, @Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
+//		Licenses license) {
+//		this.id = id;
+//		this.first_name = first_name;
+//		this.last_name = last_name;
+//		this.license = license;
+//	}
+//	public Persons(Long id, @Size(min = 2, max = 50) String first_name, @Size(min = 2, max = 50) String last_name,
+//			Licenses license, Date createdAt, Date updatedAt) {
+//		this.id = id;
+//		this.first_name = first_name;
+//		this.last_name = last_name;
+//		this.license = license;
+//		this.createdAt = createdAt;
+//		this.updatedAt = updatedAt;
+//	}
 	
 
 	

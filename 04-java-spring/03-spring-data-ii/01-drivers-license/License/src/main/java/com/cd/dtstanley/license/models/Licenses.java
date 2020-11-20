@@ -18,7 +18,6 @@ import javax.validation.constraints.Size;
 import org.springframework.format.annotation.DateTimeFormat;
 
 
-
 @Entity
 @Table(name="licenses")
 public class Licenses {
@@ -29,7 +28,7 @@ public class Licenses {
 	private Long id;
 	
 	@Column
-	@Size(min=5, max=20)
+	//@Size(min=5, max=20)
 	private int number;
 	
 	@Column
@@ -37,12 +36,12 @@ public class Licenses {
 	private String state;
 		
 	@Column
-	@DateTimeFormat(pattern = "MM/dd/yyyy HH:mm:ss")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")   //This pattern is required for input when passing data parameters in Spring MVC
 	private Date expiration_date;
 	
 	 @OneToOne(fetch=FetchType.LAZY)
-	 @JoinColumn(name="person_id")
-	 private Persons person;
+	 @JoinColumn(name="persons_id")
+	 private Persons persons;
 	
 	
 	  // This will not allow the createdAt column to be updated after creation
@@ -89,11 +88,11 @@ public class Licenses {
 	public void setExpiration_date(Date expiration_date) {
 		this.expiration_date = expiration_date;
 	}
-	public Persons getPerson() {
-		return person;
+	public Persons getPersons() {
+		return persons;
 	}
-	public void setPerson(Persons person) {
-		this.person = person;
+	public void setPersons(Persons persons) {
+		this.persons = persons;
 	}
 	public Date getCreatedAt() {
 		return createdAt;
@@ -111,12 +110,13 @@ public class Licenses {
 	
 	public Licenses() {
 			}
+	
 	public Licenses(@Size(min = 5, max = 20) int number, @Size(min = 2, max = 30) String state, Date expiration_date,
 			Persons person) {
 		this.number = number;
 		this.state = state;
 		this.expiration_date = expiration_date;
-		this.person = person;
+		this.persons = person;
 	}
 	public Licenses(Long id, @Size(min = 5, max = 20) int number, @Size(min = 2, max = 30) String state,
 			Date expiration_date, Persons person) {
@@ -124,7 +124,7 @@ public class Licenses {
 		this.number = number;
 		this.state = state;
 		this.expiration_date = expiration_date;
-		this.person = person;
+		this.persons = person;
 	}
 	public Licenses(Long id, @Size(min = 5, max = 20) int number, @Size(min = 2, max = 30) String state,
 			Date expiration_date, Persons person, Date createdAt, Date updatedAt) {
@@ -132,7 +132,7 @@ public class Licenses {
 		this.number = number;
 		this.state = state;
 		this.expiration_date = expiration_date;
-		this.person = person;
+		this.persons = person;
 		this.createdAt = createdAt;
 		this.updatedAt = updatedAt;
 	}

@@ -13,13 +13,13 @@
 <body>
 <div class="container">
 		<h2>New License</h2>
-		<form:form action="/licenses" method="POST" modelAttribute="license">
+		<form:form action="/licenses/new" method="POST" modelAttribute="licenses">
 			<div class="form-group">
-		        <form:label path="person">Person</form:label>
-		        <form:errors path="person"/>
-		        <form:select class="form-control" path="person">
+		        <form:label path="persons">Person</form:label>
+		        <form:errors path="persons"/>
+		        <form:select class="form-control" path="persons">
 		        <c:forEach items="${ persons }" var="pers">
-		        	<form:option value="${ pers.id }">${ pers.firstName } ${ pers.lastName }</form:option>
+		        	<form:option value="${ pers.id }">${ pers.first_name } ${ pers.last_name }</form:option>
 		        </c:forEach>
 		        </form:select>
 		    </div>
@@ -29,9 +29,9 @@
 		        <form:input class="form-control" path="state"/>
 		    </div>
 		    <div class="form-group">
-		        <form:label path="exirationDate">Expiration Date</form:label>
-		        <form:errors path="exirationDate"/>
-		        <form:input type="date" class="form-control" path="expirationDate"/>
+		        <form:label path="expiration_date">Expiration Date</form:label>
+		        <form:errors path="expiration_date"/>
+		        <form:input type="date" class="form-control" path="expiration_date"/>
 		    </div>
 		    <button>Add License</button>
 		</form:form>

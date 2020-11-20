@@ -13,7 +13,7 @@
 <body>
 	<div class="container">
 		<nav>
-			<h2><a href="/new">Add Person</a> | <a href="/licenses/new">Add License</a></h2>
+			<h2><a href="/persons/new">Add Person</a> | <a href="/licenses/new">Add License</a></h2>
 		</nav>
 		<table class="table table-hover">
 			<thead>
@@ -23,10 +23,10 @@
 				</tr>
 			</thead>
 			<tbody>
-			<c:forEach items="${ persons }" var="person">
+			<c:forEach items="${ persons }" var="persons">
 				<tr>
-					<td>${ person.firstName } ${ person.lastName }</td>
-					<td>${ person.license.getNumberAsString() }</td>
+					<td>${ persons.first_name } ${ persons.last_name }</td>
+					<td>${ persons.licenses.getNumberAsString() }</td>
 				</tr>
 			</c:forEach>
 			</tbody>

@@ -12,9 +12,9 @@
 </head>
 <body>
 <div class="container">
-		<h1>${ persons.firstName } ${ persons.lastName }</h1>
-		<p><strong>License Number</strong> ${ persons.license.getNumberAsString() }</p>
-		<p><strong>Expiration Date</strong> ${ persons.license.getExpirationDateFormatted() }</p>
+		<h1>${ persons.first_name } ${ persons.last_name }</h1>
+		<p><strong>License Number</strong> ${ persons.licenses.getNumberAsString() }</p>
+		<p><strong>Expiration Date</strong> ${ persons.licenses.getExpiration_Date() }</p>
 	</div>
 </body>
 </html>
