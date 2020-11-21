@@ -101,6 +101,7 @@ public class PandCHomeController {
 
 	@PostMapping("/products/addCategories/{id}")
 	public String addCats(@PathVariable("id") Long id, @RequestParam("categories") Long catId) {
+		System.out.println("Category ID: " + catId);
 		System.out.println("Line 104 of PandCHomeController reached, trying to post catg to prod.");
 		Long productsId = id;
 		Categories catgs = this.catSvc.findCategoriesById(catId);

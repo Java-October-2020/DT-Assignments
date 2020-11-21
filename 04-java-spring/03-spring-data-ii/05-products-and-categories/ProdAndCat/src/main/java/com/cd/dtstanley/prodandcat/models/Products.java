@@ -70,12 +70,14 @@ public class Products {
     		joinColumns = @JoinColumn(name = "products_id"),	//Had to enter JoinColumn import manually
     		inverseJoinColumns = @JoinColumn(name = "categories_id")
     		) 
+
+    private List<Categories> categories;	//List of categories to which this product is going to belong
+
     
 //    @OneToMany(mappedBy="products", fetch = FetchType.LAZY)
 //    @JsonIgnore
 //    private List<Associated> associated;
     
-    private List<Categories> categories;	//List of categories to which this product is going to belong
     
     //getters and setters
 	public Long getId() {

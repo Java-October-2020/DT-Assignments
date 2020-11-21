@@ -44,6 +44,7 @@ public class ProductsService {
 			// Add The Category
 			System.out.println("Line 44 of ProductsService has been reached - add product to category");
 			cats.add(category);
+			System.out.println("Cat ID: " + category.getId() + "  Product ID: " + product.getId());
 			// Update database
 			System.out.println("Line 48 of ProductsService has been reached - add product to category");
 			this.prodRepo.save(product);

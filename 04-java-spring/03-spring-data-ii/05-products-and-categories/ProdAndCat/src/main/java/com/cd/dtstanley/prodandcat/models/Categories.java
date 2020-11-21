@@ -59,8 +59,8 @@ public class Categories {
     @ManyToMany(fetch=FetchType.LAZY)
     @JoinTable(
     		name = "prodcat",
-    		joinColumns = @JoinColumn(name = "category_id"),	//Had to enter JoinColumn import manually
-    		inverseJoinColumns = @JoinColumn(name = "product_id")
+    		joinColumns = @JoinColumn(name = "categories_id"),	//Had to enter JoinColumn import manually
+    		inverseJoinColumns = @JoinColumn(name = "products_id")
     		) 
     
 //    @OneToMany(mappedBy= "categories", fetch = FetchType.LAZY)

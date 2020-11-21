@@ -34,14 +34,14 @@ No Categories have been added
 
 <hr>
 
-<form:form action="/products/addCategories/${products.id}" method="post"  modelAttribute="products">
+<form action="/products/addCategories/${products.id}" method="post">
 <select name="categories">
 <c:forEach var="cat" items="${uniqueCats}">
 	<option value="${cat.id}">${cat.name}</option>
 </c:forEach>
 </select>
 <button>Add Category</button>
-</form:form>
+</form>
 <hr>
 
 
