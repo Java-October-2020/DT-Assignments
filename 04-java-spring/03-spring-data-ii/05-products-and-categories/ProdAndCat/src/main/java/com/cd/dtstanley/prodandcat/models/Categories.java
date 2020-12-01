@@ -62,7 +62,6 @@ public class Categories {
     		joinColumns = @JoinColumn(name = "categories_id"),	//Had to enter JoinColumn import manually
     		inverseJoinColumns = @JoinColumn(name = "products_id")
     		) 
-    
 //    @OneToMany(mappedBy= "categories", fetch = FetchType.LAZY)
 //    @JsonIgnore
 //    private List<Associated> associated;

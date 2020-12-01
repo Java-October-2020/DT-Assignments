@@ -37,18 +37,18 @@ public class ProductsService {
 	
 	// Add Product To Category
 		public void addProductToCatg(Products product, Categories category) {
-			System.out.println("Line 40 of ProductsService has been reached - add product to category");
+			//System.out.println("Line 40 of ProductsService has been reached - add product to category");
 			// Get The List From the Product Object
-			System.out.println("Line 42 of ProductsService has been reached - add product to category");
+			//System.out.println("Line 42 of ProductsService has been reached - add product to category");
 			List<Categories> cats = product.getCategories();
 			// Add The Category
-			System.out.println("Line 44 of ProductsService has been reached - add product to category");
+			//System.out.println("Line 44 of ProductsService has been reached - add product to category");
 			cats.add(category);
-			System.out.println("Cat ID: " + category.getId() + "  Product ID: " + product.getId());
+			//System.out.println("Cat ID: " + category.getId() + "  Product ID: " + product.getId());
 			// Update database
-			System.out.println("Line 48 of ProductsService has been reached - add product to category");
+			//System.out.println("Line 48 of ProductsService has been reached - add product to category");
 			this.prodRepo.save(product);
-			System.out.println("Line 50 of ProductsService has been reached - add product to category");
+			//System.out.println("Line 50 of ProductsService has been reached - add product to category");
 		}
 		
 
